@@ -1,0 +1,16 @@
+
+.section__date {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+}
+.section__date_title {
+}
+.section__date_form {}
+.section__date_form-calendar {}
+.section__date_form-btn {}
+.section__date_text {}
