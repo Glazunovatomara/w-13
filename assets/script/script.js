@@ -11,7 +11,6 @@ const showMessage = () => {
 
     const calculateDays = dateTime - currentDate;
     let daysPassed = Math.floor( calculateDays / (1000 * 60 * 60 * 24) );
-console.log( `currentDate ${currentDate}`)
 
 //if (daysPassed[-1] === 1 && daysPassed !== 11 && daysPassed !== 111 && daysPassed !== 211 && daysPassed !== 311) {
    // day = 'день'
@@ -23,7 +22,7 @@ console.log( `currentDate ${currentDate}`)
 
     if(daysPassed > 0){
         result.textContent = `Мероприятие будет через ${daysPassed}`
-    } else if(daysPassed = 0) {
+    } else if(daysPassed === 0) {
         result.textContent = `Мероприятие сегодня!`
     } else if(daysPassed < 0){
         daysPassed = Math.abs(daysPassed);
