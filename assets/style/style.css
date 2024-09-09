@@ -1,16 +1,48 @@
 
+.main {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    height: 833px;
+    padding: 20px;
+    margin: 0 auto;
+    background-image: url(/assets/img/fon.jpg);
+    align-items: center;
+    justify-content: center;
+}
 .section__date {
     display: flex;
     flex-direction: column;
-    max-width: 1280px;
+    max-width: 629px;
     width: 100%;
     padding: 20px;
-    margin: 0 auto;
+    height: 159px;
+    background-color: #47b6d5a7;
+    border-radius: 9px;
+    border: 2px solid #47b7d5;
     align-items: center;
 }
 .section__date_title {
+    color: #ffffff;
 }
-.section__date_form {}
-.section__date_form-calendar {}
-.section__date_form-btn {}
-.section__date_text {}
+.section__date_form {
+    display: flex;
+    gap: 10px;
+}
+.section__date_form-calendar {
+    border-radius: 9px;
+    border: 1px solid #1d1c71;
+}
+.section__date_form-btn {
+    padding: 10px;
+    background-color: #1d1c71;
+    border-radius: 9px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.section__date_text {
+    color: #fdf0fb;
+    font-weight: 600;
+    text-align: center;
+}
