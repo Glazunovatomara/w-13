@@ -6,7 +6,7 @@
     height: 833px;
     padding: 20px;
     margin: 0 auto;
-    background-image: url(/assets/img/fon.jpg);
+    background-image: url(/../img/fon.jpg);
     align-items: center;
     justify-content: center;
 }
